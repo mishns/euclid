@@ -1,0 +1,37 @@
+.hero {
+  color: var(--color-main);
+}
+
+.hero__wrapper {
+  min-height: 620px;
+  padding: 100px 0 100px 80px;
+  background-image: url('../img/hero-bg-w1770.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 32px;
+}
+
+.hero__content {
+  max-width: 893px;
+}
+
+.hero__header {
+  margin-bottom: 24px;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 1.22;
+}
+
+.hero__descr {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 90px;
+}
+
+.hero__btn {
+  font-size: 23px;
+  width: 280px;
+  padding: 25px 39px;
+}

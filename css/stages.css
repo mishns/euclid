@@ -1,0 +1,78 @@
+.stages__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stages__header {
+  margin-bottom: 34px;
+}
+
+.stages__content-header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.stages__descr {
+  max-width: 741px;
+  margin-bottom: 17px;
+}
+
+.stages__content {
+  max-width: 900px;
+  line-height: 32px;
+}
+
+.stages__decor {
+  margin-top: 10px;
+  width: 870px;
+  background-image: url('../img/stages-decor-w870.jpg');
+  background-size: cover;
+  background-position: center center;
+  border-radius: 32px;
+}
+
+.stages__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+}
+
+.stages__btn {
+  padding-top: 21px;
+  padding-bottom: 19px;
+}
+
+.stages__legal-btn {
+  max-width: 147px;
+  border: 1px solid var(--color-secondary);
+  color: var(--color-secondary);
+  font-weight: 400;
+  -webkit-transition: background-color .3s ease, border-color .3s ease, color .3s ease;
+  -o-transition: background-color .3s ease, border-color .3s ease, color .3s ease;
+  transition: background-color .3s ease, border-color .3s ease, color .3s ease;
+}
+
+.stages__legal-btn:focus {
+  background-color: var(--color-gray);
+  border-color: var(--color-gray);
+  color: var(--color-main);
+}
+
+.stages__legal-btn:hover {
+  background-color: var(--color-gray);
+  border-color: var(--color-gray);
+  color: var(--color-main);
+}
+
+.stages__legal-btn:active {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-main);
+}

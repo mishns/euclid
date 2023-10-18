@@ -1,0 +1,13 @@
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+.social__item {
+  width: 60px;
+  height: 60px;
+  -ms-flex-negative: none;
+      flex-shrink: none;
+}

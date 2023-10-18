@@ -1,0 +1,13 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.form__input {
+  padding: 14px 24px;
+  border-radius: 16px;
+  border: 0;
+  color: var(--color-main);
+}

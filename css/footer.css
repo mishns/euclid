@@ -1,0 +1,203 @@
+.footer {
+  background-color: var(--color-secondary);
+  color: var(--color-gray_light);
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__menu {
+  margin-right: 350px;
+}
+
+.footer__logo {
+  margin-bottom: 14px;
+}
+
+.footer__nav {
+  margin-bottom: 90px;
+}
+
+.footer__nav-list {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-width: 252px;
+  line-height: 36px;
+}
+
+.footer__nav-link {
+  -webkit-transition: color .3s ease;
+  -o-transition: color .3s ease;
+  transition: color .3s ease;
+}
+
+.footer__nav-link:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 8px;
+}
+
+.footer__nav-link:hover {
+  color: var(--color-accent);
+}
+
+.footer__nav-link:active {
+  color: var(--color-accent_dark);
+  outline: none;
+}
+
+.footer__order {
+  min-width: 570px;
+  margin-right: 236px;
+}
+
+.footer__social-link {
+  font-size: 0;
+}
+
+.footer__social-link svg {
+  -webkit-transition: fill .3s ease;
+  -o-transition: fill .3s ease;
+  transition: fill .3s ease;
+}
+
+.footer__social-link svg {
+  fill: var(--color-gray);
+}
+
+.footer__social-link:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.footer__social-link:hover svg{
+  fill: var(--color-accent);
+}
+
+.footer__social-link:active svg{
+  fill: var(--color-accent_dark);
+  outline: none;
+}
+
+.footer__header {
+  margin-bottom: 26px;
+}
+
+.footer__form {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__form-input {
+  background-color: var(--color-gray_dark);
+  -webkit-transition: background-color .3s ease;
+  -o-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+}
+
+.footer__form-input:focus {
+  background-color: var(--color-gray);
+  outline: none;
+}
+
+.footer__form-input:hover {
+  background-color: var(--color-gray);
+}
+
+.footer__form-input:active {
+  background-color: var(--color-gray);
+}
+
+.footer__form-input_name, .footer__form-input_email {
+  min-height: 64px;
+}
+
+.footer__form-input_message {
+  min-height: 150px;
+  resize: none;
+  padding-top: 23px;
+  margin-bottom: 16px;
+}
+
+.footer__form-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__form-btn {
+  margin-right: 21px;
+  width: 269px;
+  min-height: 58px;
+  padding: 19px 52px;
+}
+
+.footer__form-checkbox {
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 14px;
+  height: 14px;
+}
+
+.footer__form-checkbox::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('../img/footer-form-check.svg');
+  opacity: 0;
+  -webkit-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+
+.footer__form-checkbox:checked::before {
+  opacity: 1;
+}
+
+.footer__form-checkbox::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-width: 14px;
+  min-height: 14px;
+  border: 1px solid var(--color-gray_light);
+}
+
+.footer__agree-label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  line-height: 32px;
+  color: var(--color-gray_light);
+}
+
+.footer__desc {
+  line-height: 32px;
+  margin: auto;
+}

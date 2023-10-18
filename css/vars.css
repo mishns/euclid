@@ -1,0 +1,13 @@
+:root {
+  --color-main: #fff;
+  --color-secondary: #000;
+  --color-gray: #666;
+  --color-gray_light: #CACACA;
+  --color-gray_dark: #414141;
+  --color-accent: #F90;
+  --color-accent_light: #FFB84D;;
+  --color-accent_dark: #E1670E;;
+  --color-shadow: rgba(0, 0, 0, 0.50);
+  --color-shadow_light: rgba(0, 0, 0, 0.10);
+  --gap: 32px;
+}

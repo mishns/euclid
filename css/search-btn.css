@@ -1,0 +1,35 @@
+.search-btn {
+  width: 24px;
+  height: 24px;
+  background-image: url('../12_adaptive-layout-desktop/img/');
+  font-size: 0;
+}
+
+.search-btn:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.search-btn svg rect {
+  -webkit-transition: fill .3s ease;
+  -o-transition: fill .3s ease;
+  transition: fill .3s ease;
+}
+
+.search-btn svg path {
+  -webkit-transition: stroke .3s ease;
+  -o-transition: stroke .3s ease;
+  transition: stroke .3s ease;
+}
+
+.search-btn:hover svg rect {
+  fill: var(--color-accent);
+}
+
+.search-btn:hover svg path {
+  stroke: var(--color-accent);
+}
+
+.search-btn:active {
+  outline: none;
+}
